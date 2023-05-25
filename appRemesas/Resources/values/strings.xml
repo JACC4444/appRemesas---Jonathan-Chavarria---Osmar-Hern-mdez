@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppRemesas</string>
+    <string name="action_settings">Settings</string>
+	<string name="title">BANCO CENTRAL DE NICARAGUA</string>
+	<string name="title_Remesas">Remesas Familiares</string>
+	<string name="title_table">#Años							           #Total</string>
+
+
+	<string name="table_id"> Id</string>
+	<string name="table_meses"> Meses</string>
+	<string name="table_Monto"> Monto</string>
+
+
+</resources>

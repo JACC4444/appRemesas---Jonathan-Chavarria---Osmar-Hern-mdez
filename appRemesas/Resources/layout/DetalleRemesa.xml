@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+           android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="18dp"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="@string/title_Remesas"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:id="@+id/textView3" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="20.0dp" >
+        <TextView
+            android:text="@string/table_id"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="99.0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/textView4" />
+        <TextView
+            android:text="@string/table_meses"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="136.5dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/textView5" />
+        <TextView
+            android:text="@string/table_Monto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:id="@+id/textView6" />
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1" />
+
+</LinearLayout>
